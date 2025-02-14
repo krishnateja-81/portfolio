@@ -51,7 +51,7 @@
   </nav>
 
   <!-- Introduction -->
-  <div class="container " id="home">
+  <div class="container intro" id="home">
 
     <section class="about-me">
       <div class="container">
@@ -101,6 +101,9 @@
           <div style="display: flex;  align-items: center; gap: 10px;">
 
             <h5>Email:</h5>
+            <a href="mailto:krishnatejasirvisetti@gmail.com"
+              style="color: rgba(138, 43, 226, 0.8); text-decoration: none;">krishnatejasirvisetti@gmail.com</a>
+            <h5> Personal Email:</h5>
             <a href="mailto:kteja8212@gmail.com"
               style="color: rgba(138, 43, 226, 0.8); text-decoration: none;">kteja8212@gmail.com</a>
           </div>
@@ -170,7 +173,7 @@
     <div style="padding-top: 2.6rem;"></div>
     <div class="line mt-5"></div>
     <div class="container mt-5">
-      <h2 class="text-center mb-4">Projects</h2>
+      <h2 class="project-heading text-center mb-4 text-shadow">Projects</h2>
 
 
       <div class="row">
@@ -211,20 +214,6 @@
           </div>
         </div>
 
-        <!-- Authentication using Django  -->
-        <div class="col-md-6 my-3">
-          <div class="card project-card">
-            <img src="./media/newsapp.jpeg" class="card-img-top" alt="Project 1 Screenshot">
-            <div class="card-body">
-              <h5 class="card-title">
-                SecureAuth: Fortifying User Access with Django Authentication
-              </h5>
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal4">View Details</a>
-            </div>
-          </div>
-        </div>
-
-
         <!-- weather app  -->
         <div class="col-md-6 my-3">
           <div class="card project-card">
@@ -234,6 +223,20 @@
                 WeatherWise: Your Ultimate React Weather App
               </h5>
               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal5">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- excel Dashboard app  -->
+        <div class="col-md-6 my-3">
+          <div class="card project-card">
+            <img src="https://github.com/krishnateja-81/excel_dashboard/raw/master/dashboard%20image.png"
+              class="card-img-top" alt="Project 1 Screenshot">
+            <div class="card-body">
+              <h5 class="card-title">
+                Sales Data Dashboard 📊
+              </h5>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal7">View Details</a>
             </div>
           </div>
         </div>
@@ -369,44 +372,6 @@
         </div>
       </div>
 
-      <!-- Authentication using Django  -->
-      <div class="modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-center" id="projectModal1Label">SecureAuth: Fortifying User Access with Django
-                Authentication</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body project-details">
-              <div class="d-flex align-items-center justify-content-center">
-                <img src="./media/newsapp.jpeg" class="img-fluid" style="max-width: 100%;" alt="Project 1 Screenshot">
-              </div>
-
-              <p>SecureAuth is a robust authentication app built with Django, prioritizing secure user access and
-                safeguarding against unauthorized activities. 🛡️ Explore features like user authentication,
-                email-verified registration, and Two-Factor Authentication (2FA) with PyOTP integration. Empower users
-                with a personalized profile management section for seamless account updates. Dive into the world of
-                secure authentication with SecureAuth! 🔒 #Django #Security #Authentication</p>
-            </div>
-            <div class="project-links container d-flex my-3">
-              <div class="github-link d-flex">
-                <img src="./media/github.jpg" class="bor img-fluid mr-3" width="12%" alt="Github logo">
-                <a href="https://github.com/krishnateja-81/Authentication-app-using-Django"
-                  style="text-decoration: none; color:  rgba(138, 43, 226, 0.8);" rel="noopener" target="_blank">Check
-                  it here</a>
-              </div>
-              <!-- <div class="website-link d-flex">
-              <img src="./media/" alt="">
-              <a href="https://codingcontest.pythonanywhere.com" style="text-decoration: none; color:  rgba(138, 43, 226, 0.8);" rel="noopener" target="_blank">Visit Here</a>
-            </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- weather app  -->
       <div class="modal fade" id="projectModal5" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label"
@@ -450,6 +415,41 @@
         </div>
       </div>
 
+
+      <!-- Excel Dashboard -->
+      <div class="modal fade" id="projectModal7" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="projectModal1Label">Sales Data Dashboard 📊
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body project-details">
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="https://github.com/krishnateja-81/excel_dashboard/raw/master/dashboard%20image.png"
+                  class="img-fluid" style="max-width: 100%;" alt="Project 1 Screenshot">
+              </div>
+
+              <p>A dynamic and interactive Excel dashboard that provides key sales insights across multiple dimensions,
+                including month, product, salesperson, city, and category. Featuring easy-to-use slicers and visually
+                appealing charts, this dashboard helps in data-driven decision-making by presenting trends and
+                performance metrics in a structured format./p>
+            </div>
+            <div class="project-links container d-flex my-3">
+              <div class="github-link d-flex">
+                <img src="./media/github.jpg" class="bor img-fluid mr-3" width="12%" alt="Github logo">
+                <a href="https://github.com/krishnateja-81/excel_dashboard"
+                  style="text-decoration: none; color:  rgba(138, 43, 226, 0.8);" rel="noopener" target="_blank">Check
+                  it here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- rack paper scissors -->
       <div class="modal fade" id="projectModal6" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label"
@@ -499,19 +499,125 @@
 
   </div>
 
+  <!-- Certifications Section -->
+  <div class="container " id="certificates">
+    <div style="padding-top: 5rem;"></div>
+    <div class="line"></div>
+    <h1 class="text-center my-5 text-shadow">Certifications</h1>
+    <div class="row d-flex justify-content-center">
+
+
+      <!-- python - infosys -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card" onclick="window.open('./media/certificates/python_infosys.jpeg', '_blank')">
+          <img src="./media/certificates/python_infosys.jpeg" alt="Infosys Python Cert" class="cert-img">
+          <div class="overlay">
+            <h4>Python Professional - Infosys</h4>
+            <p>Advanced Python development skills.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- React.js Basic - HackerRank -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://www.hackerrank.com/certificates/6e1581696922', '_blank')">
+          <img src="media/certificates/react_hackerrank.png" alt="React.js Basic" class="cert-img">
+          <div class="overlay">
+            <h4>React.js Basic - HackerRank</h4>
+            <p>Fundamentals of React.js for front-end development.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career Essentials in GitHub -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://www.linkedin.com/learning/certificates/cad7dd229ccefbdc84ba38ded8500ef9dc4bf43001079e40a844a47624b75727?trk=share_certificate', '_blank')">
+          <img src="media/certificates/linkedin_github.jpeg" alt="GitHub Cert" class="cert-img">
+          <div class="overlay">
+            <h4>Career Essentials in GitHub</h4>
+            <p>Version control & collaboration mastery.</p>
+          </div>
+        </div>
+      </div>    
+
+      <!-- js basics -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://www.hackerrank.com/certificates/ef1b4de90c7e', '_blank')">
+          <img src="./media/certificates/jshackerrank.png" alt="Certificate 2" class="cert-img">
+          <div class="overlay">
+            <h4>JavaScript Certificate - HackerRank</h4>
+            <p>Demonstrated proficiency in JavaScript problem-solving.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- postman -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://badgr.com/public/assertions/N19KT_uxScmOJOJFfv4Kdg?identity__email=kteja8212@gmail.com', '_blank')">
+          <img src="./media/certificates/postmanapi.png" alt="Certificate 1" class="cert-img">
+          <div class="overlay">
+            <h4>Postman API Fundamentals</h4>
+            <p>Hands-on experience with API testing and automation.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Python - HackerRank -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://www.hackerrank.com/certificates/c5daa5473b21', '_blank')">
+          <img src="media/certificates/python_hackerrank.png" alt="Python Basics" class="cert-img">
+          <div class="overlay">
+            <h4>Python Basics - HackerRank</h4>
+            <p>Fundamentals of Python programming.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- python for data science -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card"
+          onclick="window.open('https://courses.cognitiveclass.ai/certificates/4b93181ae3f4487db2a38e650f3c830e#', '_blank')">
+          <img src="./media/certificates/python_for_data_science_ibm.jpeg" alt="Certificate 3" class="cert-img">
+          <div class="overlay">
+            <h4>Python for Data Science - IBM</h4>
+            <p>Data analysis, visualization, and machine learning.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5-Star Python Badge - HackerRank -->
+      <div class="col-md-4 mt-4">
+        <div class="certificate-card" onclick="window.open('https://www.hackerrank.com/profile/21KN1A4456', '_blank')">
+          <img src="media/certificates/5star_python.jpeg" alt="HackerRank 5-Star Badge" class="cert-img">
+          <div class="overlay">
+            <h4>HackerRank 5-Star Python Badge</h4>
+            <p>Recognized Python problem-solving expertise.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
   <!-- Resume  -->
   <div class="container" id="resume">
     <div style="padding-top: 5rem;"></div>
     <div class="line"></div>
     <h1 class="skills-heading mt-5 text-shadow">Resume</h1>
     <div class="resume-img">
-      <a href="https://drive.google.com/file/d/1SS0xPgWS6zjQHaQvvDDQN2hSbJyzyDDe/view?usp=sharing" rel="noopener"
+      <a href="https://drive.google.com/file/d/1KhkyjmiU6yOut4G8EYv-AssgeFkHDtwj/view?usp=sharing" rel="noopener"
         target="_blank">
         <img src="./media/resume.png" style="width:100%" class="resume-image" alt="Resume Certificates">
       </a>
     </div>
     <div class="d-flex justify-content-center align-items-center">
-      <a href="https://drive.google.com/file/d/1SS0xPgWS6zjQHaQvvDDQN2hSbJyzyDDe/view?usp=sharing" rel="noopener"
+      <a href="https://drive.google.com/file/d/1KhkyjmiU6yOut4G8EYv-AssgeFkHDtwj/view?usp=sharing" rel="noopener"
         target="_blank"><button type="button" class="btn btn-custom">Resume</button></a>
     </div>
   </div>
@@ -521,24 +627,24 @@
     <section class="contact">
       <h1 class="text-center mt-5">Find Me On</h1>
       <div class="text-center mb-4">
-        <a href=""><img src="./media/facebook.png" alt="Facebook" class="bor img-fluid mr-3"></a>
-        <a href=""><img src="./media/twitter.png" alt="Twitter" class="bor img-fluid mr-3"></a>
-        <a href=""><img src="./media/instagram.png" alt="Instagram" class="bor img-fluid mr-3"></a>
-        <a href="https://www.linkedin.com/in/sirvisetti-krishna-teja-1b37a3282/"><img src="./media/linkedin.png"
-            alt="LinkedIn" class="bor img-fluid mr-3"></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100093253538157"><img
+            src="./media/facebook.png" alt="Facebook" class="bor img-fluid mr-3"></a>
+        <a target="_blank" href="https://x.com/kteja8212"><img src="./media/twitter.png" alt="Twitter"
+            class="bor img-fluid mr-3"></a>
+        <a href="#instagram"><img src="./media/instagram.png" alt="Instagram" class="bor img-fluid mr-3"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/sirvisetti-krishna-teja-1b37a3282/"><img
+            src="./media/linkedin.png" alt="LinkedIn" class="bor img-fluid mr-3"></a>
       </div>
     </section>
   </div>
 
   <!-- Footer  -->
-  <section class="fotter">
+  <!-- <section class="fotter">
     <footer class="footer bg-dark text-light" style="padding-top: 20px;">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h5>Contact</h5>
-            <!-- <p>123 Main Street</p>     
-                <p>City, Country</p>   -->
             <p>Email: <a href="mailto: krishnatejasirvisetti@gmail.com"
                 class="anchor">krishnatejasirvisetti@gmail.com</a>
             </p>
@@ -548,12 +654,12 @@
             <p>Github: <a href="https://github.com/krishnateja-81" class="anchor">https://github.com/krishnateja-81</a>
             </p>
 
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-  </section>
+    </section> -->
 
   <script src="./js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
